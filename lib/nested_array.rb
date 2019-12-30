@@ -34,6 +34,7 @@ def sorted_matrix
   assembled_matrix
   assembled[0].sort!
   assembled[1].sort!
+  assembled.sort!
   assembled
 end
 
