@@ -33,8 +33,8 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   assembled[0].sort!
   assembled[1].sort!
+  assembled.sort!
   assembled
-  
 end
 
 def matrix_lookup(matrix, row, column)
