@@ -31,11 +31,11 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-  assembled_matrix.sort!
-  # assembled[0].sort!
-  # assembled[1].sort!
-  # # assembled.sort!
-  # assembled
+  assembled = assembled_matrix
+  assembled[0].sort!
+  assembled[1].sort!
+  # assembled.sort!
+  assembled
 end
 
 def matrix_lookup(matrix, row, column)
