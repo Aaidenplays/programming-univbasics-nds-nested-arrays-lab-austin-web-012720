@@ -53,4 +53,5 @@ def matrix_update(matrix, row, column, new_value)
   asssembled = assembled_matrix
   sorted_matrix
   matrix[row][column] = new_value
+  matrix
 end
